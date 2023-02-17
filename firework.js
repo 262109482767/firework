@@ -171,8 +171,8 @@
 			for (var i = 0; i <= count; i++) {
 				var particle = new Particle(this.pos);
 				var angle = Math.random() * Math.PI * 2;
-				var speed =  getGaussianDistributionNumber(2.5, .8);
-				particle.size = 2;
+				var speed =  getGaussianDistributionNumber(2.5, .3);
+				particle.size = 3;
            		particle.v.x = Math.cos(angle) * speed;
             	particle.v.y = Math.sin(angle) * speed;
             	particle.color = this.color;
